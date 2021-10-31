@@ -7,3 +7,6 @@
 [submodule "choc"]
 	path = choc
 	url = https://github.com/crides/choc
+[submodule "nice-nano-kicad"]
+	path = nice-nano-kicad
+	url = https://github.com/bstiq/nice-nano-kicad

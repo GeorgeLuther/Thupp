@@ -653,4 +653,23 @@ Text GLabel 3500 1000 1    50   Input ~ 0
 COL4
 Text GLabel 4000 1000 1    50   Input ~ 0
 COL5
+$Comp
+L nice_nano:nice_nano U1
+U 1 1 617DBB1B
+P 3700 4450
+F 0 "U1" H 3700 5387 60  0000 C CNN
+F 1 "nice_nano" H 3700 5281 60  0000 C CNN
+F 2 "nice-nano-kicad:nice_nano" V 4750 1950 60  0001 C CNN
+F 3 "" V 4750 1950 60  0001 C CNN
+	1    3700 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 3000 4600 0    50   Input ~ 0
+ROW3
+Text GLabel 3000 4300 0    50   Input ~ 0
+COL2
+Text GLabel 3000 4000 0    50   Input ~ 0
+COL1
+Text GLabel 3000 3900 0    50   Input ~ 0
+COL0
 $EndSCHEMATC
