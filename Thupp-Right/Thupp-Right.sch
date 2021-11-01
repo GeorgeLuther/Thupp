@@ -27,17 +27,6 @@ $EndComp
 Wire Wire Line
 	1300 1450 1200 1450
 $Comp
-L Device:D_Small D1
-U 1 1 6179D221
-P 1200 1550
-F 0 "D1" V 1246 1480 50  0000 R CNN
-F 1 "D_Small" V 1155 1480 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 1200 1550 50  0001 C CNN
-F 3 "~" V 1200 1550 50  0001 C CNN
-	1    1200 1550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED MX2
 U 1 1 6179E6C0
 P 1850 1300
@@ -672,4 +661,27 @@ Text GLabel 3000 4000 0    50   Input ~ 0
 COL1
 Text GLabel 3000 3900 0    50   Input ~ 0
 COL0
+$Comp
+L Device:D_Small D1
+U 1 1 6179D221
+P 1200 1550
+F 0 "D1" V 1246 1480 50  0000 R CNN
+F 1 "D_Small" V 1155 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 1200 1550 50  0001 C CNN
+F 3 "~" V 1200 1550 50  0001 C CNN
+	1    1200 1550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4400 4900 2    50   Input ~ 0
+ROW2
+Text GLabel 4400 4800 2    50   Input ~ 0
+COL3
+Text GLabel 4400 4700 2    50   Input ~ 0
+ROW1
+Text GLabel 4400 4600 2    50   Input ~ 0
+COL4
+Text GLabel 4400 4500 2    50   Input ~ 0
+ROW0
+Text GLabel 4400 4400 2    50   Input ~ 0
+COL5
 $EndSCHEMATC
